@@ -5,16 +5,20 @@
     <description>Updates for Pasteboard</description>
     <language>en</language>
     <item>
-      <title>Version 1.0.0</title>
-      <pubDate>Wed, 14 Oct 2026 13:35:14 +0000</pubDate>
+      <title>Version 1.1.1</title>
+      <link>https://github.com/SamDeHerdt/Pasteboard/releases/tag/v1.1.1</link>
+      <pubDate>Wed, 14 Oct 2026 16:39:43 +0000</pubDate>
+      <sparkle:informationalUpdate>
+        <sparkle:belowVersion>4</sparkle:belowVersion>
+      </sparkle:informationalUpdate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[First public release — clipboard history in your menu bar, with search, pins, paste stacks and text transforms.]]></description>
-      <enclosure url="https://github.com/SamDeHerdt/Pasteboard/releases/download/v1.0.0/Pasteboard-1.0.0.zip"
-                 sparkle:version="2"
-                 sparkle:shortVersionString="1.0.0"
-                 length="2427555"
+      <description><![CDATA[New update-signing key. If you're on 1.0.0 or 1.1.0, install this version once from the DMG below — after that, updates install automatically again.]]></description>
+      <enclosure url="https://github.com/SamDeHerdt/Pasteboard/releases/download/v1.1.1/Pasteboard-1.1.1.zip"
+                 sparkle:version="4"
+                 sparkle:shortVersionString="1.1.1"
+                 length="2856007"
                  type="application/octet-stream"
-                 sparkle:edSignature="2rBOVaimPP0+jIUYekIXNGg29anJABpcxx8BpJSV1cZmjtTPoS0NuPm9zpDOe389FLzZqAdb6CkKZHKWsUgRAg==" />
+                 sparkle:edSignature="5dHUEvjy70Z8Du6bwFDN2ZFPbz10rpL3+4dUuYsK6xCpNPCrHudVcIcriw2E/B1Gje8YLU2u/o4znTrtc27pDA==" />
     </item>
   </channel>
 </rss>

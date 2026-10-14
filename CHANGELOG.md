@@ -2,7 +2,13 @@
 
 Versions match `CFBundleShortVersionString`; `./release.sh <version> "notes"` publishes.
 
-## 1.1.0 — unreleased
+## 1.1.1 — 2026-10-14
+
+- New update-signing key. Copies on 1.0.0 or 1.1.0 can't install updates automatically
+  any more: they show "a new version is available" with a link — install this DMG once,
+  and automatic updates work again from here on.
+
+## 1.1.0 — 2026-10-14
 
 - **Secrets**: a lock pill after the filters opens a password vault. Add one with
   *New Secret…* or right-click a clip › *Save as Secret…* (the clip leaves the history).
