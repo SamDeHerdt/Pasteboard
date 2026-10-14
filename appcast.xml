@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Pasteboard</title>
+    <description>Updates for Pasteboard</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Wed, 14 Oct 2026 15:02:40 +0000</pubDate>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[- Keyboard control: ↑↓ move, ↩ copy (⌥↩ paste), ⌘1–9, Space for Quick Look, ⇥ filters, ⌘P pin, ⌘⌫ delete, Esc
+- Secrets: passwords in your Keychain, Touch ID before every copy, clipboard clears after 30 s
+- Look: choose the menu-bar icon (or hide it), accent colour, panel height and where the shortcut opens it
+- Readable on light backgrounds; dark Quick Look
+- Password-manager copies are never recorded; choose how many clips to keep; search matches every word
+- Report a Problem and What's New in Settings › About]]></description>
+      <enclosure url="https://github.com/SamDeHerdt/Pasteboard/releases/download/v1.1.0/Pasteboard-1.1.0.zip"
+                 sparkle:version="3"
+                 sparkle:shortVersionString="1.1.0"
+                 length="2856009"
+                 type="application/octet-stream"
+                 sparkle:edSignature="4bAMsxlIIqlHeIg25yDWej+Hw/hRlxdgKWy4ZNMB/kaOEGwAj70+9CSpyDY8B0hkBIvs1V0ZHbdtIUZ5DVqcDw==" />
+    </item>
+  </channel>
+</rss>
