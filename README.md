@@ -1,8 +1,14 @@
-# Pasteboard
+<p align="center"><img src="docs/images/logo.png" width="96" alt="Pasteboard logo"></p>
+<h1 align="center">Pasteboard</h1>
+<p align="center">A clipboard-history manager that lives in your Mac's menu bar.</p>
+
 
 A clipboard-history manager that lives in your Mac's menu bar. Everything you copy is
 kept in a searchable history, grouped by day, that survives restarts, with a
 Liquid Glass look on macOS 26.
+
+<p align="center"><img src="docs/images/history-panel.png" width="340" alt="The Pasteboard history panel with search, kind filters and day jumps, showing a pinned clip and today's clips such as meeting notes, a link, a colour, an email address and a code snippet"></p>
+<p align="center"><sub>Screenshots use made-up example clips (Acme Facility, acme.example); no real clipboard history.</sub></p>
 
 - **Search and filter** by kind: links, colors, emails, code, images, text; every word you type must match
 - **Keyboard first**: ↑↓ to move, ↩ to copy (⌥↩ to paste), ⌘1–9 for the first nine, Space for Quick Look,
@@ -28,6 +34,8 @@ Liquid Glass look on macOS 26.
 Pasteboard appears as a clipboard icon in the menu bar. Press **⌃⌥V** (changeable in
 Settings) to open your history. To have a clip paste straight into the front app, allow
 Pasteboard under **System Settings → Privacy & Security → Accessibility**.
+
+<p align="center"><img src="docs/images/settings.png" width="340" alt="The Pasteboard Settings page with General, Look, History and About tabs, showing the summon shortcut and behaviour toggles"></p>
 
 Requires macOS 14 or later. Runs on both Apple silicon and Intel Macs.
 
